@@ -9,7 +9,23 @@
 * uses white space to deliminate code blocks.
 * different types pypy, jython, IronPython, cPython.
 * python 3 is the definite future and use it when possible.
+* Read, Eval, Print
+* Development managed through PEPs.
 
+##Whitespace
+* single level of indent in a code block
+* no clutter
+* whitespace - 4 spaces or 1 tab
+* never mixes spaces and tabs
+
+##Standard Library
+* refered to as modules
+
+```
+import module_name
+```
+* dot operator used to access object structures.
+*
 
 ##Comments
 * single line comments start w/ a "#" and go to the end of the line
