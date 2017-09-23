@@ -47,6 +47,54 @@ let message = "Should this be a variable"
 let currentMonth: String
 ```
 * Constants and variables must be initialized before we use them.
+* Use let as much as you can.
+
+##Operators
+###New Operators
+* ??
+* ...
+* ..<
+* ->
+* !
+* ?
+##Operators that don't Exist
+* ++ and -- don't work in swift.
+
+###Checking type
+```
+let a = 5
+let b = 2
+let myResult = a + b
+type(of: myResult)
+```
+* In swift we don't have implicit conversion between types.
+
+```
+var score = 1
+var highScore = 100.0
+highScore = score
+```
+* Cannot assign value of type 'Int' to type 'Double'
+
+##Type Conversion
+```
+var score = 1
+var highScore 100.0
+highScore = Double(score)
+```
+* type names being upper case
+* can't just convert types that don't make sense & it's possible to lose info on some conversions - int to floats for example
+* sometimes you won't get the data you need. So optionals become important.
+
+##Optionals
+* Variables and constants are not automatically initialized to default values.
+* Having default values where there is no data can lead to problems w/ your logic.
+* to define an optional add a question mark
+```
+var firstName: String?
+```
+
+
 
 
 ##XCODE
